@@ -7,10 +7,20 @@ public class studentUse {
         student s2 = new student();
         
         s1.name = "abhishek";
-        s1.rollNumber = 2409;
+        s1.setRoll(-123);
+
+
+        s2.name = "manhisha0";
+        s2.setRoll(256);
+
 
         System.out.println(s1.name);
-        System.out.println(s1.rollNumber);
+        System.out.println(s1.getRollNo());
+
+
+
+        System.out.println(s2.name);
+        System.out.println(s2.getRollNo());
 
     }
 }
